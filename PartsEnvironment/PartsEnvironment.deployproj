@@ -11,7 +11,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>bd52204a-7129-4ff2-b66c-34a5e6f70cdd</ProjectGuid>
+    <ProjectGuid>b8968829-2bd2-4cf6-a33f-4115cc16974e</ProjectGuid>
   </PropertyGroup>
   <PropertyGroup>
     <TargetFrameworkIdentifier>Deployment</TargetFrameworkIdentifier>
@@ -25,22 +25,12 @@
   <Import Condition=" Exists('$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Deployment\1.1\DeploymentProject.targets') " Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Deployment\1.1\DeploymentProject.targets" />
   <!-- vertag<:>end -->
   <ItemGroup>
-    <Content Include="Templates\AppInsights.json" />
-    <Content Include="Templates\DemoEnvironmentSetup.json" />
-    <Content Include="Templates\DemoEnvironmentSetup.param.json" />
-    <Content Include="Templates\FullEnvironmentSetup.json" />
-    <Content Include="Templates\FullEnvironmentSetup.param.json" />
-    <Content Include="Templates\HostingPlanAndRules.json" />
-    <Content Include="Templates\SqlServerAndDb.json" />
-    <Content Include="Templates\Website.json" />
-    <Content Include="Templates\WebsiteRules.json" />
-    <Content Include="Templates\WebsiteWithTwoSlots.json" />
-    <None Include="Deploy-AzureResourceGroup.ps1" />
     <None Include="Deployment.targets">
       <Visible>False</Visible>
     </None>
-    <None Include="Templates\FullEnvironmentSetupMerged.json" />
-    <None Include="Templates\FullEnvironmentSetupMerged.param.json" />
+    <Content Include="Deploy-AzureResourceGroup.ps1" />
+    <Content Include="WebSiteSQLDatabase.json" />
+    <Content Include="WebSiteSQLDatabase.parameters.json" />
   </ItemGroup>
   <Target Name="GetReferenceAssemblyPaths" />
 </Project>
