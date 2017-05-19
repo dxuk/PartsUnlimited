@@ -10,6 +10,12 @@
     },
     "databaseName": {
       "value": "partsdb"
+    },
+    "webSiteName": {
+      "value": "partsweb-dx"
+    },
+    "sqlserverName": {
+      "value": "partsdb-dx"
     }
   }
 }
