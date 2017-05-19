@@ -3,13 +3,16 @@
   "contentVersion": "1.0.0.0",
   "parameters": {
     "WebsiteName": {
-      "value": ""
+      "value": "PartsUnlimited"
     },
     "PartsUnlimitedServerName": {
-      "value": ""
+      "value": "PartsServer"
     },
     "PartsUnlimitedHostingPlanName": {
-      "value": ""
+      "value": "PartsPlan"
+    },
+    "StorageAccountName": {
+      "value": "PartsStorage"
     },
     "CdnStorageAccountName": {
       "value": ""
